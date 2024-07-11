@@ -7,7 +7,7 @@
             url: https://bit.ly/3dtJtR7
             dest: 'C:\gitrepos\ansible-working\error-handling\transaction_list'
         - win_lineinfile:
-            path: /home/ansible/lab-error-handling/transaction_list
+            path: 'C:\gitrepos\ansible-working\error-handling\transaction_list'
             regexp: "#BLANKLINE"
             backrefs: yes
             line: '\n'
