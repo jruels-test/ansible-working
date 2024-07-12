@@ -8,5 +8,5 @@
   vars:
     ip_address: 192.168.0.1
     database_name: mydb
-    db_user: me
+    db_username: me
     db_password: password
